@@ -2,11 +2,13 @@
 import React from "react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { BsMoon, BsSun } from "react-icons/bs";
+import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 export default function ToggleBtn() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+
+  // console.log(theme);
 
   // useEffect(() => {
   //   setMounted(true);
@@ -16,13 +18,13 @@ export default function ToggleBtn() {
   // }
   return (
     <button
-      className='px-[.7rem] py-[.8rem] rounded-md dark:bg-[#212933]'
+      className='px-[.7rem] py-[.8rem] rounded-md'
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {theme === "light" ? (
-        <BsMoon size={21} color='white' />
+        <BsMoonFill size={21} color='white' />
       ) : (
-        <BsSun size={21} color='white' />
+        <BsSunFill size={21} color='white dark:black' />
       )}
     </button>
   );
