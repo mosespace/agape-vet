@@ -31,7 +31,7 @@ export default function Footer() {
   }
   return (
     <>
-      <div className='bg-slate-950 px-[3rem] text-slate-50 lg:px-[5rem] py-[2rem] flex flex-col flex-wrap justify-between'>
+      <div className='dark:bg-slate-950 bg-slate-200 px-[3rem] text-slate-950 dark:text-slate-50 lg:px-[5rem] py-[2rem] flex flex-col flex-wrap justify-between bottom-0'>
         {/* Learn More ---------Desktop */}
         <div className='flex lg:hidden'>
           <h2 className='text-3xl font-bold pb-[1rem]'>Agape</h2>
@@ -161,10 +161,4 @@ export default function Footer() {
       </div>
     </>
   );
-}
-
-{
-  /*agapevet
-    agapeveterinarycenter
-*/
 }
