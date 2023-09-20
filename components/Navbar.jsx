@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-full px-[3rem] lg:px-[5rem] py-[1rem] lg:py-[.8rem] bg-agape-dark-blue text-slate-50 dark:text-slate-950 ${
+        className={`fixed top-0 left-0 w-full px-[3rem] lg:px-[5rem] py-[1rem] lg:py-[.8rem] bg-agape-dark-blue dark:bg-slate-200 text-slate-50 dark:text-slate-950 ${
           menuOpen ? "z-50" : "z-10"
         }`}
       >
