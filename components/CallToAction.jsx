@@ -7,15 +7,15 @@ export default function CallToAction() {
         <h2 className='font-bold text-[1.3rem] '>
           Your Pet's Health and happiness Starts Here ✅
         </h2>
-        <p className='text-slate-600 dark:text-slate-100 text-[.6rem]'>
+        <p className='text-slate-600 dark:text-slate-100 text-[.7rem]'>
           What are you waiting for? Book an appointment today!
         </p>
       </div>
-      <div className='pt-[1.2rem] flex gap-[.5rem] w-full'>
-        <button className='font-medium bg-sky-600 px-[1rem] py-[.5rem] rounded-md text-[.8rem]'>
+      <div className='pt-[1.2rem] flex gap-[.5rem] w-full dark:text-slate-950'>
+        <button className='font-semibold bg-agape-yellow px-[1rem] py-[.5rem] rounded-md text-[.8rem] '>
           Book Appointment
         </button>
-        <button className='font-medium border-2 border-sky-600 px-[1rem] py-[.5rem] rounded-md text-[.8rem]'>
+        <button className='font-semibold border-2 border-agape-yellow px-[1rem] py-[.5rem] rounded-md text-[.8rem]'>
           Live Chart
         </button>
       </div>
