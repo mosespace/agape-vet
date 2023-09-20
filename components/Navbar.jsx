@@ -27,7 +27,7 @@ export default function Navbar() {
               <>
                 <ToggleBtn />
               </>
-              <button className='bg-agape-yellow font-semibold rounded-md px-[1.5rem] py-[.7rem] text-slate-50'>
+              <button className='bg-agape-yellow dark:bg-sky-600 font-semibold rounded-md px-[1.5rem] py-[.7rem] text-slate-50'>
                 Chat
               </button>
               <button onClick={toggleMenu}>
