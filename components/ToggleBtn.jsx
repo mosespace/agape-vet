@@ -22,9 +22,9 @@ export default function ToggleBtn() {
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {theme === "light" ? (
-        <BsMoonFill size={21} color='white' />
+        <BsMoonFill size={21} color='black' />
       ) : (
-        <BsSunFill size={21} color='white dark:black' />
+        <BsSunFill size={21} color='white' />
       )}
     </button>
   );
