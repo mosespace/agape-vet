@@ -16,20 +16,25 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-full px-[3rem] lg:px-[5rem] py-[1rem] lg:py-[.8rem] bg-agape-dark-blue dark:bg-slate-200 text-slate-50 dark:text-slate-950 ${
+        className={`fixed top-0 left-0 w-full px-[3rem] lg:px-[5rem] py-[1rem] lg:py-[.8rem] dark:bg-agape-dark-blue bg-slate-200 dark:text-slate-50 text-slate-950 ${
           menuOpen ? "z-50" : "z-10"
         }`}
       >
         <nav className='flex flex-col lg:flex-row lg:items-center justify-between'>
           <div className='flex items-center justify-between'>
-            <h2 className='font-bold text-2xl'>Agape</h2>
+            <h2 className='font-bold lg:text-2xl text-[1rem]'>
+              Agape<span className='font-light'>Vet Center</span>
+            </h2>
             <div className='flex items-center gap-[1rem] lg:hidden'>
               <>
                 <ToggleBtn />
               </>
-              <button className='bg-agape-yellow dark:bg-agape-yellow font-semibold rounded-md px-[1.5rem] py-[.7rem] text-slate-50 dark:text-slate-950'>
-                Chat
-              </button>
+              <Link href='https://wa.me/256783011694?text=Hello,%20as%20i%20was%20browsing%20through%20your%20website,%20I%20liked%20your%20services%20and%20decided%20to%20have%20a%20chat%20with%20you🥰'>
+                <button className='bg-agape-yellow dark:bg-agape-yellow font-semibold rounded-md px-[1.5rem] py-[.7rem] text-slate-50 dark:text-slate-950'>
+                  Chat
+                </button>
+              </Link>
+
               <button onClick={toggleMenu}>
                 {menuOpen ? (
                   <HiOutlineX size={30} />
