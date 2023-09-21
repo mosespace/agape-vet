@@ -8,7 +8,8 @@ import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const whatsappLink =
+    "https://wa.me/256783011694?text=Hello,%20as%20i%20was%20browsing%20through%20your%20website,%20I%20liked%20your%20services%20and%20decided%20to%20have%20a%20chat%20with%20you🥰";
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -29,7 +30,7 @@ export default function Navbar() {
               <>
                 <ToggleBtn />
               </>
-              <Link href='https://wa.me/256783011694?text=Hello,%20as%20i%20was%20browsing%20through%20your%20website,%20I%20liked%20your%20services%20and%20decided%20to%20have%20a%20chat%20with%20you🥰'>
+              <Link href={whatsappLink}>
                 <button className='bg-agape-yellow dark:bg-agape-yellow font-semibold rounded-md px-[1.5rem] py-[.7rem] text-slate-50 dark:text-slate-950'>
                   Chat
                 </button>
