@@ -1,9 +1,7 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import ToggleBtn from "./ToggleBtn";
 import React, { useState } from "react";
-import AgapeLogo from "../public/SVG//logo.svg";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 
 export default function Navbar() {
