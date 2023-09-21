@@ -31,7 +31,7 @@ export default function Footer() {
   }
   return (
     <>
-      <div className='bg-slate-950 px-[3rem] text-slate-50 lg:px-[5rem] py-[2rem] flex flex-col flex-wrap justify-between'>
+      <div className='dark:bg-slate-950 bg-blue-950 px-[3rem] text-slate-50 dark:text-slate-50 lg:px-[5rem] py-[2rem] flex flex-col flex-wrap justify-between bottom-0'>
         {/* Learn More ---------Desktop */}
         <div className='flex lg:hidden'>
           <h2 className='text-3xl font-bold pb-[1rem]'>Agape</h2>
@@ -44,7 +44,7 @@ export default function Footer() {
           {/* Learn More */}
           <div className='flex flex-col '>
             <h2 className='font-semibold pb-3'>Learn More</h2>
-            <ul className='flex flex-col gap-3 text-slate-500'>
+            <ul className='flex flex-col gap-3 text-slate-400'>
               <Link href='#' className='hover:text-slate-50'>
                 Blog
               </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
           {/* Services */}
           <div className='flex flex-col'>
             <h2 className='font-semibold pb-3'>Services</h2>
-            <ul className='flex flex-col gap-3 text-slate-500'>
+            <ul className='flex flex-col gap-3 text-slate-400'>
               <Link href='#' className='hover:text-slate-50'>
                 Medical
               </Link>
@@ -88,7 +88,7 @@ export default function Footer() {
           {/* Contact Us */}
           <div className='flex flex-col'>
             <h2 className='font-semibold pb-3'>Contact Us</h2>
-            <ul className='flex flex-col gap-3 text-slate-500'>
+            <ul className='flex flex-col gap-3 text-slate-400'>
               <Link href='#' className='hover:text-slate-50'>
                 Call Center
               </Link>
@@ -117,7 +117,7 @@ export default function Footer() {
                   aria-describedby='file_input_help'
                   className='bg-agape-dark-blue rounded-md'
                 />
-                <p className='text-slate-500'>
+                <p className='text-slate-400'>
                   Please upload on of these types: [.jpg, .jpeg, png, webp]
                   (5MBS)
                 </p>
@@ -155,16 +155,10 @@ export default function Footer() {
         </div>
 
         {/* Downer Footer ---------Mobile & Desktop */}
-        <div className='border-slate-500 border-t-2 py-[1rem] text-center text-[.8rem]'>
+        <div className='border-slate-400 border-t-2 py-[1rem] text-center text-[.8rem]'>
           @ 2023 BrandRider Corp | All Rights Reserved
         </div>
       </div>
     </>
   );
-}
-
-{
-  /*agapevet
-    agapeveterinarycenter
-*/
 }

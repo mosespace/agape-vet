@@ -31,4 +31,6 @@ module.exports = {
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
+
+  darkMode: "class",
 };
