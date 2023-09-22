@@ -49,8 +49,8 @@ export default function Faq() {
 
   return (
     <div className='dark:bg-slate-50 dark:text-slate-950 px-[3rem] lg:px-[5rem] lg:py-[3rem] py-[2rem]'>
-      <div className='flex lg:px-[5rem] py-[1rem] flex-col-reverse lg:flex-row lg:gap-[15rem] items-center'>
-        <div className='flex flex-col gap-[1rem]'>
+      <div className='flex lg:px-[5rem] py-[1rem] flex-col-reverse lg:flex-row lg:gap-[15rem] md:items-start items-center'>
+        <div className='flex flex-col gap-[1rem] md:w-full'>
           <h2 className='font-bold text-[1.3rem] lg:text-[2rem] py-4'>
             Frequently <br /> Asked Question
           </h2>
