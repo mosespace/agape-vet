@@ -2,7 +2,9 @@
 import Link from "next/link";
 import ToggleBtn from "./ToggleBtn";
 import React, { useState } from "react";
+import AgapeLogo from "../public/logo White.svg";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,6 +23,14 @@ export default function Navbar() {
       >
         <nav className='flex flex-col lg:flex-row lg:items-center justify-between'>
           <div className='flex items-center justify-between'>
+            {/* <div className='h-[35px] relative w-[100px]'>
+              <Image
+                src={AgapeLogo}
+                alt='AgapeVetCenter'
+                fill
+                className='w-full h-full object-cover'
+              />
+            </div> */}
             <h2 className='font-bold lg:text-2xl text-[1rem]'>
               Agape<span className='font-light'>Vet Center</span>
             </h2>
