@@ -9,6 +9,8 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { useForm } from "react-hook-form";
+import AgapeLogo from "../public/logo White.svg";
+import Image from "next/image";
 
 export default function Footer() {
   const { register, handleSubmit } = useForm();
@@ -34,9 +36,17 @@ export default function Footer() {
       <div className='dark:bg-slate-950 bg-blue-950 px-[3rem] text-slate-50 dark:text-slate-50 lg:px-[5rem] py-[2rem] flex flex-col flex-wrap justify-between bottom-0'>
         {/* Learn More ---------Desktop */}
         <div className='flex lg:hidden'>
-          <h2 className='text-3xl font-bold pb-[1rem]'>Agape</h2>
+          {/* <div className='h-[35px] relative w-[100px]'>
+            <Image
+              src={AgapeLogo}
+              alt='AgapeVetCenter'
+              fill
+              className='w-full h-full object-cover'
+            />
+          </div> */}
+          <h2 className='text-3xl font-bold'>Agape</h2>
         </div>
-        <div className='flex flex-wrap justify-between lg:pb-[3rem]'>
+        <div className='flex flex-wrap justify-between pt-5 md:pb-5 lg:pt-0 lg:pb-[3rem]'>
           {/* Learn More */}
           <div className='hidden lg:block'>
             <h2 className='text-3xl font-bold'>Agape</h2>
