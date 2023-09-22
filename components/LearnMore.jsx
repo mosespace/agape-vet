@@ -43,8 +43,8 @@ export default function LearnMore() {
 
       {/* Mobile Version */}
       <div className='lg:hidden bg-agape-light-blue px-[3rem] py-[2rem]'>
-        <div className='flex py-[1rem] flex-col-reverse lg:items-start items-center'>
-          <div className='flex flex-col-reverse gap-[1rem] text-slate-50'>
+        <div className='flex md:items-start py-[1rem] flex-col-reverse lg:items-start items-center'>
+          <div className='flex md:flex-row flex-col-reverse gap-[1rem] text-slate-50'>
             <div>
               <h2 className='font-bold text-[1.3rem] lg:text-[2rem] py-1'>
                 Envisioning a brighter <br /> future for animals.
@@ -59,12 +59,12 @@ export default function LearnMore() {
                 </button>
               </div>
             </div>
-            <div className='flex flex-wrap gap-2 text-slate-50'>
-              <div className='hidden rounded-md py-[3rem] text-center px-[3rem] bg-slate-950 cursor-pointer hover:bg-agape-yellow w-full'>
+            <div className='flex flex-wrap md:grid md:grid-cols-2 gap-2 text-slate-50'>
+              <div className='hidden md:block rounded-md py-[3rem] text-center px-[3rem] bg-slate-950 cursor-pointer hover:bg-agape-yellow w-full'>
                 <h3 className='text-[1.6rem] font-bold'>1,300+</h3>
                 <p>Pets</p>
               </div>
-              <div className='hidden rounded-md py-[3rem] text-center px-[3rem] bg-slate-950 cursor-pointer hover:bg-agape-yellow w-full'>
+              <div className='hidden md:block rounded-md py-[3rem] text-center px-[3rem] bg-slate-950 cursor-pointer hover:bg-agape-yellow w-full'>
                 <h3 className='text-[1.6rem] font-bold'>200+</h3>
                 <p>Veterinarians</p>
               </div>
