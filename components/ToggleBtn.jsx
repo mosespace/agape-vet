@@ -16,13 +16,14 @@ export default function ToggleBtn() {
   // if (!mounted) {
   //   return null;
   // }
+
   return (
     <button
       className='px-[.7rem] py-[.8rem] rounded-md'
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
     >
       {theme === "light" ? (
-        <BsMoonFill size={21} color='black' />
+        <BsMoonFill size={21} color='white' />
       ) : (
         <BsSunFill size={21} color='white' />
       )}
