@@ -9,7 +9,7 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { useForm } from "react-hook-form";
-import AgapeLogo from "../public/logoWhite.svg";
+// import AgapeLogo from "../public/logoWhite.svg";
 import Image from "next/image";
 
 export default function Footer() {
